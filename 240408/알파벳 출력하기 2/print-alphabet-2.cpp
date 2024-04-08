@@ -11,7 +11,7 @@ int main() {
         for(int j = 0; j < N - max; j ++) cout << "  ";
         for(int j = 0; j <max; j++){
             cout << c << " ";
-            if(++c == z) c = 'A';
+            if(++c > z) c = 'A';
         }
         cout << endl;
         max--;
