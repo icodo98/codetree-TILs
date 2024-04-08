@@ -9,6 +9,7 @@ int main() {
         cin >> str1;
         cout << str1;
     }
+    cout << endl;
     
     return 0;
 }
