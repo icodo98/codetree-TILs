@@ -13,6 +13,8 @@ int main() {
         if(isalpha(a[i]) == 0) {
             ans0 += a[i];
         }
+    }
+    for(int i = 0; i < b.length(); i++){
         if(isalpha(b[i]) == 0) {
             ans1 += b[i];
         }
