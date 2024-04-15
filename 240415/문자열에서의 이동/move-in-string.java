@@ -7,8 +7,10 @@ public class Main {
         String s = sc.next();
         int energy = 0;
         int step = 0;
+        int sIdx = 0;
+        while(s.charAt(sIdx) != 'a') ++sIdx;
         char next = 'b';
-        for(int i = 1 ; i < s.length(); i++){
+        for(int i = sIdx + 1 ; i < s.length(); i++){
             step++;
             if(s.charAt(i) != next) continue;
             energy += step * step;
